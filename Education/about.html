@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - Campus Portal</title>
+
+  <!-- TailwindCSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+   <!-- Font -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-cover bg-center min-h-screen relative" style="background-image: url('image/about.png');">
+
+  <!-- Navi Bar -->
+  <header class="bg-white bg-opacity-80 backdrop-blur-lg fixed w-full z-50 shadow-md">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <div class="flex items-center space-x-2">
+        <img src="image/logos.png" alt="Campus Logo" width="100" class="rounded logo-img">
+        <span class="font-bold text-2xl text-blue-800">UOM</span>
+      </div>
+
+      <nav class="hidden md:flex space-x-8">
+        <a href="home.html" class="text-blue-700 hover:text-blue-900 font-semibold">Home</a>
+        <a href="about.html" class="text-blue-700 hover:text-blue-900 font-semibold">About</a>
+        <a href="contact.html" class="text-blue-700 hover:text-blue-900 font-semibold">Contact</a>
+        <a href="course.html" class="text-blue-700 hover:text-blue-900 font-semibold">Courses</a>
+        <a href="register.html" class="text-green-700 hover:text-green-900 font-semibold">Register</a>
+        <a href="index.html" class="text-blue-700 hover:text-blue-900 font-semibold">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="pt-40 pb-20 px-6">
+    <div class="max-w-5xl mx-auto bg-white bg-opacity-90 p-10 rounded-lg shadow-lg backdrop-blur-md">
+      <h2 class="text-4xl font-bold text-center text-blue-800 mb-8">About Our Campus</h2>
+      <p class="text-gray-700 text-lg leading-8 mb-6">
+        Welcome to <span class="font-semibold text-blue-700">UOM Campus</span>, where innovation meets excellence in education. 
+        Our mission is to create a learning environment that nurtures growth, creativity, and leadership.
+        We are committed to empowering students with the knowledge and skills needed to succeed in a rapidly changing world.
+      </p>
+
+      <p class="text-gray-700 text-lg leading-8 mb-6">
+        Established in 1995, our campus has grown into a vibrant community of scholars, researchers, and innovators.
+        We offer a wide range of programs across various fields, equipped with modern facilities, dedicated faculty, and an active student life.
+      </p>
+
+      <p class="text-gray-700 text-lg leading-8 mb-6">
+        Join us and be a part of a diverse, supportive, and forward-thinking institution that will help you unlock your full potential!
+      </p>
+
+      <div class="mt-10 flex justify-center">
+        <a href="register.html" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold shadow-lg transition-transform transform hover:scale-105">
+          Join Us Today
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black bg-opacity-70 text-white py-6 mt-10">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+      
+      <p>© 2025 UOM. All rights reserved.</p>
+
+      <div class="flex space-x-6 text-2xl">
+        <a href="https://www.facebook.com" target="_blank" class="hover:text-blue-500 transition-colors">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.youtube.com" target="_blank" class="hover:text-red-500 transition-colors">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank" class="hover:text-pink-500 transition-colors">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://wa.me/yourwhatsappphonenumber" 
+        class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-transform transform hover:scale-110 z-50"
+        target="_blank">
+        <i class="fab fa-whatsapp text-3xl"></i>
+        </a>
+
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>

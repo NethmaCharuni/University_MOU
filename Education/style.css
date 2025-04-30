@@ -1,0 +1,158 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  .logo-img {
+    background: transparent;
+    mix-blend-mode: multiply;
+  }
+
+
+  
+  /* Body styling */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Form Container */
+  .container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Form Titles */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 24px;
+  }
+  
+  /* Form Input fields */
+  form input[type="text"],
+  form input[type="password"],
+  form input[type="tel"],
+  form input[type="email"] {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  /* Submit Button */
+  form button {
+    width: 100%;
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #357ab8;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+    color: #4a90e2;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Special Section for Dashboard */
+  .dashboard {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  .dashboard h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #222;
+  }
+  
+  /* Search bar style */
+  .search-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-container input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 8px 0 0 8px;
+    font-size: 16px;
+  }
+  
+  .search-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Student card style */
+  .student-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .student-card h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .student-card p {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 500px) {
+    .container {
+      padding: 1.5rem;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    form button {
+      font-size: 16px;
+    }
+  }
+  
